@@ -1,0 +1,23 @@
+.odometer {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.odometer-digit {
+    position: relative;
+    overflow: hidden;
+    margin: 0 2px;
+}
+
+.odometer-digit-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 2s ease-in-out;
+}
+
+.odometer-digit-inner span {
+    display: block;
+    text-align: center;
+}
